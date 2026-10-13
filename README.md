@@ -8,7 +8,7 @@ The book is free online at [statlearning.com](https://www.statlearning.com/).
 
 | Ch. | Topic | Notes | Lab | Exercises |
 |----|-------|:-----:|:---:|:---------:|
-| 2 | Statistical Learning | ⬜ | ⬜ | ⬜ |
+| 2 | Statistical Learning | 🟨 | ⬜ | ⬜ |
 | 3 | Linear Regression | ⬜ | ⬜ | ⬜ |
 | 4 | Classification | ⬜ | ⬜ | ⬜ |
 | 5 | Resampling Methods | ⬜ | ⬜ | ⬜ |
@@ -32,19 +32,6 @@ stat-learning/
 └── exercises/    # my answers to end-of-chapter exercises
 ```
 
-## Running the notebooks
-
-```bash
-git clone https://github.com/maksjanus/stat-learning.git
-cd stat-learning
-python -m venv .venv
-# Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
-pip install ISLP jupyter
-jupyter notebook
-```
-
-The `ISLP` package includes the datasets used in the book, so no separate downloads are needed.
-
 ## Notes
 
-These are my own learning notes, so expect mistakes along the way. Corrections and suggestions are welcome through issues.
+These are my own notes, expect mistakes. 
