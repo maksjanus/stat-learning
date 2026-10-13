@@ -1,6 +1,6 @@
 # stat-learning
 
-My notes and lab work while working through **An Introduction to Statistical Learning with Applications in Python** (ISLP) by James, Witten, Hastie, Tibshirani & Taylor.
+My notes and lab work while working through An Introduction to Statistical Learning with Applications in Python (ISLP) by James, Witten, Hastie, Tibshirani & Taylor.
 
 The book is free online at [statlearning.com](https://www.statlearning.com/).
 
