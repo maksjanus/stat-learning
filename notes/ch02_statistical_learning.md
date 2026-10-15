@@ -48,4 +48,22 @@ Typical questions:
 - Is each relation positive or negative?
 - Is the relation linear or more complex?
 
-### How do we estimate $f$? #
+## How do we estimate $f$? #
+
+### Parametric Methods # 
+
+These assume a functional form of $f$ and assign coefficients to the parameters:
+
+$f(X)$ = $\beta_0$ + $\beta_1$ $X_1$ + $\beta_2$ $X_2$ + ... + $\beta_p$ $X_p$
+
+Above is a linear model example, but after any model is selected for estimating $f$, we need a procedure that uses training data to fit the model. 
+
+In the linear example we need to estimate the parameters ($\beta_0$, $\beta_1$, $\beta_2$, $\beta_P$) such that $Y$ = the whole equation above. 
+
+Overfitting is when models follow noise or errors to closely and wrongly estimate parameters based on said error, leading to bad real prediction.
+
+### Non-Parametric Methods # 
+
+These do not make an assumption about the general form of $f$. Instead they seek an estimate of $f$ that gets as close to the data points as possible without being too rough or wiggly. 
+
+Since these do not reduce the problem of estimating $f$ to a small number of parameters, a very large number of observations is needed to obtain an accurate estimate of $f$
