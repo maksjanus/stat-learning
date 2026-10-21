@@ -120,7 +120,14 @@ For two classes, this predicts class 1 if $\Pr(Y = 1 \mid X = x_0) > 0.5$, and c
 
 #### KNN #
 
+We would obviously like to predict qual responses using Bayes classifier, but for real data, we don't know the conditional distribution of $Y$ given $X$, so it's usually impossible using Bayes. Unattainable gold standard. 
 
+KNN classifier attempts to estimate the conditional distribution to the class with the highest estimated probability. 
 
+Given positive integer $K$ and a test observation $x_0$, KNN classifier first IDs the $K$ points in the training data that are closest to $x_0$, represented by $N_0$. It then estimates the conditional probability for class $j$ as the fraction of points in $N_0$ whose response values equal $j$ and classifies the test observation to the class with largest probability:
 
+$$\Pr(Y = j \mid X = x_0) = \frac{1}{K}\sum_{i\epsilon N_0} I(y_i = j)$$
 
+English version lmao: Pick positive integer $K$ to be the number of nearest neighbors to that new $x_0$ test data point. Are most of the nieghbors "red" or "blue"? We assign the new point the most common label among its $K$ neighbors. Distances used could be Euclidian, Manhattan, or Minkowski. 
+
+As $K$ grows, the method becomes less flexible and produces a decision boundary that is close to linear. This corresponds to a low-variance but high-bias classifier.
