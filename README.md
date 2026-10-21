@@ -8,7 +8,7 @@ The book is free online at [statlearning.com](https://www.statlearning.com/).
 
 | Ch. | Topic | Notes | Lab | Exercises |
 |----|-------|:-----:|:---:|:---------:|
-| 2 | Statistical Learning | 🟨 | ⬜ | ⬜ |
+| 2 | Statistical Learning | ✅ | 🟨 | ⬜ |
 | 3 | Linear Regression | ⬜ | ⬜ | ⬜ |
 | 4 | Classification | ⬜ | ⬜ | ⬜ |
 | 5 | Resampling Methods | ⬜ | ⬜ | ⬜ |
